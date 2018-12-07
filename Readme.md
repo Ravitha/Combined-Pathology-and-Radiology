@@ -25,3 +25,7 @@ Computer Aided Detection plays a crucial role in the early detection of deadly d
  *SVM_Train.py*
  
   Creates an SVM model using Scikit-learn package
+
+
+# Classification model:
+The feature vectors from radiology and pathology images are concatenated and are given to the SVM (Support Vector Machine) classification model. SVM is a statistical tool which can learn the non-linear boundaries to separate the data points. As the data points provide a sparse representation, SVM is preferred.

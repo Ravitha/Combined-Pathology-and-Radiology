@@ -11,7 +11,7 @@ WORKFLOW FOR TUMOR CLASSIFICATION
 
 # Files 
 
-*tissue_percent.py  
+*tissue_percent.py*
 
   Eliminates the unuseful tiles using the features of the histogram
   Threshold value are computed directly from the histogram against which the intensity values are compared
@@ -21,6 +21,6 @@ WORKFLOW FOR TUMOR CLASSIFICATION
   Segments the nuclei using Fuzzy means clustering provided in histomicstk package
   Features are extracted using ResNet50
   
- *SVM_Train.py
+ *SVM_Train.py*
  
   Creates an SVM model using Scikit-learn package

@@ -1,5 +1,11 @@
 # Pathology Image Processing Pipeline:
- A whole slide tissue image in SVS format is provided for each case in the dataset. Whole slide images comprises of a pyramid structure holding multiple images at different resolution. VIPS utility is used to tile the baseline image into (256,256) tiles. It's been recorded in the literature that nuclei appears to have a rough texture in malignant tumors as opposed to smooth regular texture in benign tumors. As the morphology of the nuclei acts as an important attribute in the classification, nuclei is segmented and been used for feature extraction. The pathology images are Hematoxylin and Eosin (H&E) stained whole slide tissue images. Hematoxylin stain enhances the nuclei in the image. So, Reinhard's color deconvolution algorithm is applied for the separation of H & E stains from the Image. The H-stained portion of the image is subjected to local maximum clustering for segmentation of nuclei region. The resulting segmentation mask is then applied to the original image for the extraction of the texture details.
+
+<ul>
+ <li>VIPS utility is used to tile the baseline WSI image into (256,256) tiles</li>
+ <li>Reinhard's color deconvolution algorithm is applied for the separation of H & E stains from the Image</li>
+ <li>H-stained portion of the image is subjected to local maximum clustering for segmentation of nuclei region</li>
+ <li>The resulting segmentation mask is then applied to the original image for the extraction of the texture details</li>
+</ul>
 
 # Files
 excelwithkera.py - Converting the images into feature vectors using ResNet50 model (Keras)

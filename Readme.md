@@ -1,5 +1,7 @@
 # COMBINED RADIOLOGY AND PATHOLOGY BASED CLASSIFICATION OF TUMOR TYPES
-Pathology images provide clinical information about the tissues where as the radiology images can be used for locating the lesions <br/>  This work aims at proposing a classification model which categorizes the tumor as oligodendroglioma (benign tumors) (or) astrocytoma (Malignant tumors) <br/> The architecture uses dedicated workflows for processing pathology and radiology images. 
+Pathology images provide clinical information about the tissues where as the radiology images can be used for locating the lesions <br/>
+
+:pencil2:This work aims at proposing a classification model which categorizes the tumor as oligodendroglioma (benign tumors) (or) astrocytoma (Malignant tumors) <br/> The architecture uses dedicated workflows for processing pathology and radiology images. 
 
 # WORKFLOW FOR TUMOR CLASSIFICATION
 ![](image.png)   

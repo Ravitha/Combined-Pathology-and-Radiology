@@ -29,3 +29,7 @@ Computer Aided Detection plays a crucial role in the early detection of deadly d
 
 # Classification model:
 The feature vectors from radiology and pathology images are concatenated and are given to the SVM (Support Vector Machine) classification model. SVM is a statistical tool which can learn the non-linear boundaries to separate the data points. As the data points provide a sparse representation, SVM is preferred.
+
+:dart: The work has been published as a chapter which provides an detailed explanation of each components in the model pipeline<br/>
+:pin: Cite the work if you use the material in the link<br/>
+>Ravitha Rajalakshmi N., Sangeetha B., Vidhyapriya R., Ramesh N. (2021) Combined Radiology and Pathology Based Classification of Tumor Types. In: Kose U., Alzubi J. (eds) Deep Learning for Cancer Diagnosis. Studies in Computational Intelligence, vol 908. Springer, Singapore. https://doi.org/10.1007/978-981-15-6321-8_6
